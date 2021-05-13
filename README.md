@@ -8,21 +8,39 @@ In this assignment, we'll implement and test two basic data structures:
 
 A queue works like a line for an amusement park ride -- people enter at the end of the queue and leave from the front (*FIFO*: first in, first out).
 
-<!-- ![queue image](../images/200px-Data_Queue.svg.png) -->
-
 #### A queue would be great for....
 
 Issuing instructions to your sandwich-making robot.
+
+#### Implementation methods:
+- Implement a [queue](http://en.wikipedia.org/wiki/Queue_(abstract_data_type)) with the following methods:
+    -  `enqueue(element)` - Adds an element to the back of the queue
+    -  `dequeue()` - Remove and return the element at the front of the queue
+    -  `size()` - Return the number of items in the queue
+    -  `front()` - Return the element at the front of the queue
+    -  `isEmpty()` - Returns true or false whether the queue has elements
+    -  `printQueue()` - Prints all the elements of the queue
+
+![queue image](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/600px-Data_Queue.svg.png)
 
 ### 2. [Stack](http://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 
 A stack works like a stack of plates -- plates are added and removed from the the top of the stack (*LIFO*: last in, first out).
 
-<!-- ![stack image](../images/200px-Data_stack.svg.png) -->
+![stack image](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/440px-Data_stack.svg.png)
 
 #### A stack would be great for...
 
 Implementing your browser's back button.
+
+#### Implementation methods:
+- Implement a [stack](http://en.wikipedia.org/wiki/Stack_(abstract_data_type)) with the following methods:
+    -  `push(element)` - Add an element to the top of the stack
+    -  `pop()` - Remove and return the element on the top of the stack
+    -  `size()` - Return the number of items on the stack
+    -  `peek()` - Return the top element on the stack, but it won't remove it (the way `pop()` does)
+    -  `isEmpty()` - Returns whether or not the Stack is empty
+    -  `printStack()` - Prints all the elements of a queue
 
 ## Bare Minimum Requirements
 
@@ -124,7 +142,7 @@ Some failing specs are included. You're welcome! You should make them pass, then
 
 A linked list is a dynamic data structure that allows for constant time insertion and removal at any point in the linked list (compare this to an array which on average has linear time insertion and removal operations). In exchange for this insertion and removal speed, linked lists are not indexed and any find operations on a link list require the linear time operation of traversing the entire linked-list from the beginning.
 
-<!-- ![Linked List image](../images/43154574-2615-11e3-8e29-43cf74e25b10.png) -->
+![Linked List image](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/816px-Singly-linked-list.svg.png)
 
 #### A linked list would be great for....
 
@@ -142,7 +160,7 @@ An itinerary you expect to add and remove destinations to and from.
 
 A tree is a hierarchical data structure consisting of a node (potentially) with children. The children are trees unto themselves, that is, nodes with (potential) children. For this reason the tree is referred to as a recursive data structure.
 
-<!-- ![Tree image](../images/ternary-and-quaternary-tree.gif) -->
+![Tree image](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tree_%28computer_science%29.svg/440px-Tree_%28computer_science%29.svg.png)
 
 #### A tree would be great for....
 
@@ -161,7 +179,7 @@ Graphs consist of nodes (often referred to as vertices) and edges (often referre
 hierarchical. Graphs can be undirected, which means that the relationship of any 2 nodes connected by an edge is a symmetrical relationship, or they can be directed,
 which means there is an asymmetrical relationship between nodes that are connected by an edge. You will be implementing an undirected graph.
 
-<!-- ![Graph image](../images/PlN2VGG.png) -->
+![Graph image](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/600px-6n-graf.svg.png)
 
 #### A graph would be great for....
 
@@ -203,7 +221,7 @@ Hash tables (sometimes called hash maps) store key value pairs. They do so in a 
 numerical indices located within a fixed block of memory (think about the contiguous blocks of memory used in arrays). Hash tables only increase their size
 in memory when necessary, and reduce their size in memory when possible.
 
-<!-- ![Hash Table image](https://user-images.githubusercontent.com/13425777/77678866-0d08c700-6f4f-11ea-8cb7-daf83e78d937.png) -->
+![Hash Table image](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/630px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
 
 #### A hash table would be great for....
 
@@ -232,7 +250,7 @@ can each have 0, 1, or 2 children. In a binary *search* tree, one child (out of 
 condition you wish) and the other child will always be greater than the node's value. Whether it is the 'left' or the 'right' child which is greater or lesser is consistent
 throughout the binary search tree. This structure results in particularly fast find operations. You'll be asked to answer just how fast yourself.
 
-<!-- ![Binary Search Tree image](../images/eDw57vR.png) -->
+![Binary Search Tree image](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/360px-Binary_search_tree.svg.png)
 
 #### A binary search tree would be great for....
 
