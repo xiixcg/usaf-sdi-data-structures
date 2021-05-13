@@ -200,7 +200,7 @@ Representing how a collection of websites (or the entire world wide web) link to
 
 Sets contain unique values in no particular order.
 
-![Set image](../images/Sets02.png)
+<!--- ![Set image](../images/Sets02.png) --->
 
 #### A set would be great for....
 
